@@ -10,7 +10,9 @@ public class PersonalAcademico extends Usuario{
     protected List<Incidente> incidentes;
     
     public void reportarError(String email, String contenido){
-        
+        Incidente incidente = new Incidente();
+        incidentes.add(incidente);
+        //enviarIncidente()
     }
     
     public void solicitarAsesoramientoDelSistema(String email, String contenido){
